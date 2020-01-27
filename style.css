@@ -1,0 +1,78 @@
+/*Feuille de style CV DUCHER FRED*/
+
+.page
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.photo
+{
+	background-color: #C0CA33;
+	display:flex;
+	justify-content: space-around;
+}
+.rond
+{
+	display: inline-block;
+	border: 2px solid #C0CA33;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	
+}
+.portrait
+{
+	width: inherit;
+	height: inherit;
+	border-radius: inherit;
+	object-fit: cover;
+  	object-position: right center;
+}
+.gauche
+{
+	background-color:#C0CA33;
+	color:#37474F; 
+}
+.barre_gauche
+{
+	padding: 10%;
+}
+.droit
+{
+	color:#37474F;
+}
+.titre
+{
+	color:#37474F;
+}
+.titregauche
+{
+	background-color: #37474F;
+	color: #C0CA33;
+	text-align: center;
+}
+.blue
+{
+	color:#C0CA33; 
+}
+u
+{
+	text-decoration-color:#C0CA33;  
+}
+i
+{
+color: #37474F;
+}
+.soustitre
+{
+	display: inline;
+}
+i.fas
+{
+	font-size: 40px;
+	display: inline-block;
+	margin: 25px;
+}
+
