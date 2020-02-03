@@ -1,78 +1,84 @@
-/*Feuille de style CV DUCHER FRED*/
+/* feuille de style CV_DUCHER_FRED */
 
-.page
+
+/* Style général */
+body
 {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+	color:#37474F ;
+	width: 1280px;
+	margin:auto;
 }
-.photo
+h1
 {
-	background-color: #C0CA33;
+	font-size: 3em;
+}
+
+/* Style Header */
+.mainhead
+{
+	display:grid;
+	grid-template-columns: 33% 66%;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+.mainhead__photo
+{
+	grid-column: 1 / 2;
+	grid-row: 1;
+	background-color: #FDD835;
 	display:flex;
 	justify-content: space-around;
 }
-.rond
+.mainhead__photo__portrait
 {
-	display: inline-block;
-	border: 2px solid #C0CA33;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	overflow: hidden;
-	margin-bottom: 10%;
-	margin-top: 10%;
-	
+	width:250px;
+   clip-path:ellipse(50% 50%);
+   margin-top: 25px;
+   margin-bottom: 25px;
 }
-.portrait
+.mainhead__title
 {
-	width: inherit;
-	height: inherit;
-	border-radius: inherit;
-	object-fit: cover;
-  	object-position: right center;
+	grid-column: 2 / 3;
+	grid-row: 1;
+	display: flex;
 }
-.gauche
+.mainhead__title__name
 {
-	background-color:#C0CA33;
-	color:#37474F; 
+	justify-content: flex-start;
 }
-.barre_gauche
+.mainhead__title__yellow
 {
-	padding: 10%;
+	color:#FDD835;
 }
-.droit
+.mainhead__title__light
 {
-	color:#37474F;
-}
-.titre
-{
-	color:#37474F;
-}
-.titregauche
-{
-	background-color: #37474F;
-	color: #C0CA33;
-	text-align: center;
-}
-.blue
-{
-	color:#C0CA33; 
+	color:black;
+	font-weight: 50;
 }
 u
 {
-	text-decoration-color:#C0CA33;  
+	text-decoration-color: #FDD835;
 }
-i
+
+/* Style Corp de page */
+.corpse
 {
-color: #37474F;
+	display: grid;
+	grid-template-columns: 33% 66%;
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
 }
-.soustitre
+.corpse__leftside
 {
-	display: inline;
+	grid-column: 1 / 2;
+	background-color: #FDD835;
 }
-i.fas
+.leftside__lefttitle
 {
-	font-size: 40px;
-	display: inline-block;
-	margin: 25px;
+	background-color: #37474F;
+	color: #FDD835;
+	text-align: center;
 }
 
