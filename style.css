@@ -1,84 +1,70 @@
-/* feuille de style CV_DUCHER_FRED */
+/*Feuille de style CV DUCHER FRED*/
 
-
-/* Style général */
-body
+.page
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: medium;
-	color:#37474F ;
-	width: 1280px;
-	margin:auto;
-}
-h1
+}	
+.photo
 {
-	font-size: 3em;
-}
-
-/* Style Header */
-.mainhead
-{
-	display:grid;
-	grid-template-columns: 33% 66%;
-	grid-gap: 10px;
-	grid-auto-rows: minmax(100px, auto);
+	background-color: #FDD835;
+	display:flex;
+	justify-content: space-around;
 }
 .mainhead__photo
 {
-	grid-column: 1 / 2;
-	grid-row: 1;
 	background-color: #FDD835;
 	display:flex;
 	justify-content: space-around;
 }
 .mainhead__photo__portrait
 {
-	width:250px;
+   width:200px;
    clip-path:ellipse(50% 50%);
    margin-top: 25px;
    margin-bottom: 25px;
 }
-.mainhead__title
+.gauche
 {
-	grid-column: 2 / 3;
-	grid-row: 1;
-	display: flex;
+	background-color:#FDD835;
+	color:#37474F; 
 }
-.mainhead__title__name
+.barre_gauche
 {
-	justify-content: flex-start;
+	padding: 10%;
 }
-.mainhead__title__yellow
+.droit
 {
-	color:#FDD835;
+	color:#37474F;
 }
-.mainhead__title__light
+.titre
 {
-	color:black;
-	font-weight: 50;
+	color:#37474F;
 }
-u
-{
-	text-decoration-color: #FDD835;
-}
-
-/* Style Corp de page */
-.corpse
-{
-	display: grid;
-	grid-template-columns: 33% 66%;
-	grid-gap: 10px;
-	grid-auto-rows: minmax(100px, auto);
-}
-.corpse__leftside
-{
-	grid-column: 1 / 2;
-	background-color: #FDD835;
-}
-.leftside__lefttitle
+.titregauche
 {
 	background-color: #37474F;
 	color: #FDD835;
 	text-align: center;
 }
-
+.blue
+{
+	color:#FDD835; 
+}
+u
+{
+	text-decoration-color:#FDD835;  
+}
+i
+{
+color: #37474F;
+}
+.soustitre
+{
+	display: inline;
+}
+i.fas
+{
+	font-size: 40px;
+	display: inline-block;
+	margin: 25px;
+}

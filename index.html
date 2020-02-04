@@ -2,94 +2,117 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-        <meta charset="utf-8" />
-		<link rel="stylesheet" href="style.css" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
         <title>CV Frederic Ducher</title>
+        <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<!-- police roboto -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<!--kit code font awesome-->
 		<script src="https://kit.fontawesome.com/8f60b265e2.js" crossorigin="anonymous"></script>
 	</head>
 
-    <body>
+    <body class="page">
     	<!--header-->
-        <header class="mainhead">
-  				<div class="mainhead__photo">
-				<img class="mainhead__photo__portrait" src="portrait2.jpg" alt="photo">
-        		</div>
-        		<div class="mainhead__title">
-        		<div class="mainhead__title__name"><H1><span class="mainhead__title__yellow">FREDERIC</span> <span class="mainhead__title__light"> DUCHER</span></H1><H3><u>Develo</u>ppeur web freelance</H3></div>
-        		</div>
-		<!--fermeture container-->
+        <header>
+        	<div class="container">
+  				<div class="row">
+    				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+						<div class="mainhead__photo">
+							<img class="mainhead__photo__portrait" src="images/portrait2.jpg" alt="photo">
+        				</div>
+        			</div>
+        			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+        				<div class="titre">
+        					<H1><span class="blue">FREDERIC</span> DUCHER</H1><H3><u>Develo</u>ppeur web freelance</H3>
+        				</div>
+        			</div>
+				</div>
+			<!--fermeture container-->
+        	</div>
         </header>
 
         <!--corp de page-->
-        <div class="corpse">
+        <div class="container">
+  			<div class="row">
   			<!--coté gauche-->
-    		<aside class="corpse__leftside">
+    		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    			<aside class="gauche">
+
 				<!--bloc 1 contact-->
-				<address class="leftside__leftblock">
-					<div class="leftside__lefttitle"><H2 class="leftside__lefttitle__text">CONTACT</H2></div>
-					<div class="leftside__leftbar">
-						<p>Adresse<br/>1 Blackholes street 73000 Flytothemoon</p>
-						<p>Email<br/>fred.xxxxxxxxxx@gmail.com</p>
-						<p>Téléphone<br/>06.xx.xx.xx.xx</p>
+				<div class="contact">
+					<div class="titregauche"><H3>CONTACT</H3></div>
+					<div class="barre_gauche">
+						<p>Adresse<br/>1 Chemin du Pery 73220 Val D'arc</p>
+						<p>Mail<br/>fred.devproject@gmail.com</p>
+						<p>Tel<br/>06.59.65.94.25</p>
 					</div>
-				</address>
+				</div>
 
 				<!--bloc 2 à propos-->
-				<article class="leftside__leftblock">
-					<div class="leftside__lefttitle"><H2 class="leftside__lefttitle__text">A PROPOS DE MOI</H2></div>
-					<div class="leftside__leftbar">
+				<div class="a_propos">
+					<div class="titregauche"><H3>A PROPOS DE MOI</H3></div>
+					<div class="barre_gauche">
 						<p>En reconversion professionelle après plusieurs années dans le domaine des contrôles réglementaires et de la maintenance.
 						<br/>J'ai developpé de nouvelles compétences dans le domaine du digital pour réorienter ma carrière vers le métier de developpeur web.</p>
 					</div>
-				</article>
+					</div>
 
 				<!--bloc 3 Loisirs-->
-				<div class="leftside__leftblock">
-					<div class="leftside__lefttitle"><H2 class="leftside__lefttitle__text">LOISIRS</H2></div>
-					<div class="leftside__leftbar">
-					<div class="leftside__icon"></div><i class="fas fa-running"></i><i class="fas fa-gamepad"></i><i class="fas fa-tools"></i></div>
+				<div class="loisirs">
+					<div class="titregauche"><H3>LOISIRS</H3></div>
+					<div class="barre_gauche">
+					<p><i class="fas fa-running"></i><i class="fas fa-gamepad"></i><i class="fas fa-tools"></i></p>
 				</div>
-			<!--fermeture barre gauche-->
-			</aside>
+				</div>
+
+				<!--fermeture barre gauche-->
+				</aside>
+			</div>
 
 			<!--coté droit-->
-			<section class="corpse__rightside">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+				<section class="droit">
 						<!--section 4 formation-->
-						<section class="rightside__rightblock">
-							<div class="rightside__righttitle"><i class="fas fa-graduation-cap"></i><H2>FORMATION</H2></div>
+						<div class="formation">
+							<div class="titredroit"><H2>FORMATION</H2></div>
 							<ul>
-								<li>2020<H4 class="rightside__undertitle">OPENCLASSROOM</H4><p>Parcours developpeur web et Obtention du titre professionnel developpeur d'application</p></li>
-								<li>1995-1996<H4 class="rightside__undertitle">CFAI DE L'ERIER</H4><p>CAP et BEP maintenance des véhicules automobile en alternance</p></li>
+								<li>2020<H4 class="soustitre">OPENCLASSROOM</H4><p>Parcours developpeur web et Obtention du titre professionnel developpeur d'application</p></li>
+								<li>1995-1996<H4 class="soustitre">CFAI DE L'ERIER</H4><p>CAP et BEP maintenance des véhicules automobile en alternance</p></li>
 							</ul>
-						</section>
+						</div>
 
 						<!--section 5 Exp pro-->
-						<section class="rightside__rightblock">
-							<div class="rightside__righttitle"><i class="fas fa-briefcase"></i><H2>EXPERIENCE PROFESSIONNELLE</H2></div>
+						<div class="exp_pro">
+							<div class="titredroit"><H2>EXPERIENCE PROFESSIONNELLE</H2></div>
 							<ul>
 								<li>2018 à 2020<h4>APAVE Sud-Europe</h4>Réalisation de vérification périodique et assistance technique à la mise en service d'équipement de levage de toute capacités.
-									  Vérification d'équipements scéniques et de salles de spectacles selon les préconisations du SYNPASE.
-									  Assistance technique à la vérification d'équipement spécifique au domaine médical selon les préconisations de l'ANSM.
-									  Participation à la réalisation d'offres commerciales.
-								</li>
-								<li>2009 à 2018<h4>DEKRA Industrial SAS</h4>Réalisation de visites périodiques et mise en service d'équipement industriels de levage.
-									  Assistance technique pour la mise en conformité d'équipement de travail aux normes en vigueur.
-									  Vérification de la conformité d'aire de jeux et d'équipements sportifs.
-								</li>
+									Vérification d'équipements scéniques et de salles de spectacles selon les préconisations du SYNPASE.
+									Assistance technique à la vérification d'équipement spécifique au domaine médical selon les préconisations de l'ANSM.
+									Participation à la réalisation d'offres commerciales.
+							    </li>
+							    <li>2009 à 2018<h4>DEKRA Industrial SAS</h4>Réalisation de visites périodiques et mise en service d'équipement industriels de levage.
+								Assistance technique pour la mise en conformité d'équipement de travail aux normes en vigueur.
+								Vérification de la conformité d'aire de jeux et d'équipements sportifs.
+						        </li>
 								<li>2000 à 2009<h4>FENWICK-LINDE</h4>Suivi et maintenance d'un parc de chariots élévateurs et d'engins de manutentions.
-									  Réalisation de devis.
-								</li>
+									Réalisation de devis.
+							    </li>
 								<li>1998 à 2000<h4>Divers</h4>Diverses missions intérim dans le domaine de la maintenance, l'industrie et le BTP.</li>
-						</section>
+						</div>
+
 						<!--section 6 Recommandations-->
-						<section class="rightside__rightblock">
-							<div class="rightside__righttitle"><i class="fas fa-pencil-alt"></i><H2>RECOMMANDATIONS</H2></div>
-						</section>
-			<!--fermeture section droite-->		
-			</section>
+						<div class="reco">
+							<div class="titredroit"><H2>RECOMMANDATIONS</H2></div>
+						</div>
+				<!--fermeture section droite-->		
+				</section>
+			</div>
 		</div>
 		<!--fermeture container-->
-	</body>
-    </html>
+        </div>
+
+    </body>
+    </html> 
