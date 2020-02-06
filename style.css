@@ -16,6 +16,7 @@ h1
 	background-color: #FDD835;
 	display:flex;
 	justify-content: space-around;
+	height: 100%;
 }
 .mainhead__photo__portrait
 {
@@ -42,17 +43,37 @@ u
 {
 	background-color:#FDD835;
 	color:#37474F;
-	height: auto; 
+	height:100%;
+	display:flex; 
+	flex-direction:column;
 }
-.left__box__title
+.left__top
+{
+	flex-grow: 1;
+}
+.left__top__box__title
 {
 	background-color: #37474F;
 	color: #FDD835;
 	text-align: center;
 }
-.left__box__bar
+.left__top__box__bar
 {
 	padding: 20px;
+}
+.left__bot__box__title
+{
+	background-color: #37474F;
+	color: #FDD835;
+	text-align: center;
+}
+@media (max-width:768px)
+{
+	.left__bot__box
+	{
+		display: none;
+	}
+
 }
 i
 {
@@ -75,3 +96,4 @@ i.fas
 	color: black;
 	border-bottom: solid 2px #FDD835 ;
 }
+
