@@ -67,11 +67,25 @@ u
 	color: #FDD835;
 	text-align: center;
 }
+.left__bot__box__bar
+{
+	padding: auto;
+}
 @media (max-width:768px)
 {
 	.left__bot__box
 	{
 		display: none;
+	}
+	.mainhead__photo
+	{
+		border-top-left-radius:1em ;
+		border-top-right-radius:1em ;
+	}
+	.left
+	{
+		border-bottom-left-radius:1em ;
+		border-bottom-right-radius:1em ;	
 	}
 
 }
