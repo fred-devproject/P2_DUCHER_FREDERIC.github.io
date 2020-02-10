@@ -3,6 +3,10 @@
 .page
 {
 	font-family: 'Roboto', sans-serif;
+	font-size: small;
+	font-weight: 500;
+	margin: auto;
+	max-width: 1280px;
 }
 h1
 {
@@ -13,35 +17,66 @@ h1
 
 .mainhead__photo
 {
-	background-color: #FDD835;
+	background-color: #FFEB3B;
 	display:flex;
 	justify-content: space-around;
 	height: 100%;
+
 }
 .mainhead__photo__portrait
 {
-   width:200px;
+   width:180px;
    clip-path:ellipse(50% 50%);
-   margin-top: 25px;
-   margin-bottom: 25px;
+   margin:50px 80px 50px 80px;
+   
 }
 .mainhead__title
 {
 	color:#37474F;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-.mainhead__title_box__yellow
+.mainhead__title__box__yellow
 {
-	color:#FDD835; 
+	color:#FFEB3B;
+	padding-left: 65px; 
+}
+.mainhead__title__box
+{
+	display: block;
+	padding-left:65px ;
 }
 u
 {
-	text-decoration-color:#FDD835;  
+	text-decoration-color:#FFEB3B;  
+}
+
+/* Taille d'écran < à 768px */
+@media(max-width:768px)
+{
+.mainhead__title
+	{
+		color:#37474F;
+		display: inline;
+		text-align: justify;
+	}
+.mainhead__title__box__yellow
+	{
+		color:#FFEB3B;
+		padding: 0px; 
+	}
+.mainhead__title__box
+	{	
+		color:#37474F;
+		padding:0px;
+	}
 }
 
 /* Partie gauche */
 .left
 {
-	background-color:#FDD835;
+	background-color:#FFEB3B;
 	color:#37474F;
 	height:100%;
 	display:flex; 
@@ -49,45 +84,31 @@ u
 }
 .left__top
 {
-	flex-grow: 1;
+	flex-grow:1;
 }
 .left__top__box__title
 {
 	background-color: #37474F;
-	color: #FDD835;
+	color: #FFEB3B;
 	text-align: center;
 }
 .left__top__box__bar
 {
+	text-align: justify;
 	padding: 20px;
 }
 .left__bot__box__title
 {
 	background-color: #37474F;
-	color: #FDD835;
+	color: #FFEB3B;
 	text-align: center;
+	margin-bottom: 0px;
 }
 .left__bot__box__bar
 {
-	padding: auto;
-}
-@media (max-width:768px)
-{
-	.left__bot__box
-	{
-		display: none;
-	}
-	.mainhead__photo
-	{
-		border-top-left-radius:1em ;
-		border-top-right-radius:1em ;
-	}
-	.left
-	{
-		border-bottom-left-radius:1em ;
-		border-bottom-right-radius:1em ;	
-	}
-
+	background-color: #FFEB3B;
+	display: flex;
+	justify-content: center;
 }
 i
 {
@@ -97,7 +118,7 @@ i.fas
 {
 	font-size: 40px;
 	display: inline-block;
-	margin: 15px;
+	margin: 25px;
 }
 
 /* Partie droite */
@@ -108,6 +129,6 @@ i.fas
 .right__box__title
 {
 	color: black;
-	border-bottom: solid 2px #FDD835 ;
+	border-bottom: solid 2px #FFEB3B ;
 }
 
