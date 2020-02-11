@@ -12,6 +12,10 @@ h1
 {
 	color: black;
 }
+h4, h6
+{
+	font-weight: 600;
+}
 
 /* Header */
 
@@ -157,6 +161,11 @@ i.fas
 	width: 60%;
 	font-size: 15px;
 }
+.right__box__reco
+	{
+		margin-left:65px;
+		width:50%;
+	}
 .fa-dot-circle
 {
 	color:#FFEB3B;
@@ -173,7 +182,7 @@ i.fas
 
 /* Taille d'écran < à 768px */
 /* responsive header */
-@media(max-width:768px)
+@media(max-width:767px)
 {
 .mainhead__title
 	{
@@ -184,7 +193,7 @@ i.fas
 .mainhead__title__box__yellow
 	{
 		color:#FFEB3B;
-		padding: 0px; 
+		padding: 5px; 
 	}
 .mainhead__title__box
 	{	
@@ -194,15 +203,21 @@ i.fas
 .right__box__titlebar
 	{
 	border-bottom: solid 2px #FFEB3B ;
-	margin-left: 0px;
-	font-size: smaller;
+	margin: 10px 0px 0px 0px;
+	font-size: 30px;
 	}
 .right__box__text__date
 	{
-		margin-left:5px ;
+		margin:0px;
 		flex-grow: 1;
 		font-size: 15px;
 		display:inline-flex;
+	}
+.right__box__reco
+	{
+		margin-left:0px;
+		width:auto;
+		font-size: 12px;
 	}
 
 
