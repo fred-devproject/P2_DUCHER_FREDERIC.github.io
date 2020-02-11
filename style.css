@@ -52,28 +52,8 @@ u
 	text-decoration-color:#FFEB3B;  
 }
 
-/* Taille d'écran < à 768px */
-@media(max-width:768px)
-{
-.mainhead__title
-	{
-		color:#37474F;
-		display: inline;
-		text-align: justify;
-	}
-.mainhead__title__box__yellow
-	{
-		color:#FFEB3B;
-		padding: 0px; 
-	}
-.mainhead__title__box
-	{	
-		color:#37474F;
-		padding:0px;
-	}
-}
-
 /* Partie gauche */
+
 .left
 {
 	background-color:#FFEB3B;
@@ -85,6 +65,7 @@ u
 .left__top
 {
 	flex-grow:1;
+	font-size: 15px;
 }
 .left__top__box__title
 {
@@ -106,9 +87,11 @@ u
 }
 .left__bot__box__bar
 {
+	padding: 25px;
 	background-color: #FFEB3B;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	font-size: 45px;
 }
 i
 {
@@ -116,19 +99,110 @@ color: #37474F;
 }
 i.fas
 {
-	font-size: 40px;
 	display: inline-block;
-	margin: 25px;
 }
 
 /* Partie droite */
+
 .right__box
 {
 	color:#37474F;
 }
+
+/* Partie droite barre titre et icones font awesome jaunes */
+
 .right__box__title
 {
 	color: black;
-	border-bottom: solid 2px #FFEB3B ;
+	display: inline;
 }
+.right__box__titlebar
+{
+	border-bottom: solid 2px #FFEB3B ;
+	margin-left: 65px;
+	font-size: 30px;
+}
+.fa-briefcase
+{ 
+	color: #FFEB3B;
+	margin-right: 15px;
+}
+.fa-graduation-cap
+{ 
+	color: #FFEB3B;
+	margin-right: 15px;
+}
+.fa-pencil-alt
+{
+	color:#FFEB3B;
+	margin-right: 15px;
+}
+
+/* Partie droite liste avec date et contenu */
+
+.right__box__text
+{
+	display:flex;
+	padding-top: 20px;
+}
+.right__box__text__date
+{
+	margin-left:65px ;
+	flex-grow: 1;
+	font-size: 15px;
+	display:inline-flex;
+}
+.right__box__text__content
+{
+	width: 60%;
+	font-size: 15px;
+}
+.fa-dot-circle
+{
+	color:#FFEB3B;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+.fa-circle
+{
+	color:#FFEB3B;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+
+/* Taille d'écran < à 768px */
+/* responsive header */
+@media(max-width:768px)
+{
+.mainhead__title
+	{
+		color:#37474F;
+		display: inline;
+		text-align: justify;
+	}
+.mainhead__title__box__yellow
+	{
+		color:#FFEB3B;
+		padding: 0px; 
+	}
+.mainhead__title__box
+	{	
+		color:#37474F;
+		padding:0px;
+	}
+.right__box__titlebar
+	{
+	border-bottom: solid 2px #FFEB3B ;
+	margin-left: 0px;
+	font-size: smaller;
+	}
+.right__box__text__date
+	{
+		margin-left:5px ;
+		flex-grow: 1;
+		font-size: 15px;
+		display:inline-flex;
+	}
+
 
