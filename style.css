@@ -96,7 +96,7 @@ u
 	background-color: #FFEB3B;
 	display: flex;
 	justify-content: space-around;
-	font-size: 45px;
+	font-size: 35px;
 }
 i
 {
@@ -113,8 +113,8 @@ i.fas
 	border-color: #37474F;
 	border-style:solid;
 	border-width:2px;
-	height: 70px;
-	width:70px;
+	height: 60px;
+	width:60px;
 	padding: 10px 5px 5px 15px;
 	margin:2px;
 }
@@ -124,8 +124,8 @@ i.fas
 	border-color: #37474F;
 	border-style:solid;
 	border-width:2px;
-	height: 70px;
-	width:70px;
+	height: 60px;
+	width:60px;
 	padding: 10px 10px 5px 5px;
 	margin:2px;
 }
@@ -135,8 +135,8 @@ i.fas
 	border-color: #37474F;
 	border-style:solid;
 	border-width:2px;
-	height: 70px;
-	width:70px;
+	height: 60px;
+	width:60px;
 	padding: 10px 5px 5px 10px;
 	margin: 2px;
 }
