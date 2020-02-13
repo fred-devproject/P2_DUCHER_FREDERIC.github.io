@@ -21,7 +21,7 @@ h4, h6
 
 .mainhead__photo
 {
-	background-color: #FFEB3B;
+	background-color: #ADFF2F;
 	display:flex;
 	justify-content: space-around;
 
@@ -35,14 +35,14 @@ h4, h6
 }
 .mainhead__title
 {
-	color:#37474F;
+	color:#2F4F4F;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 .mainhead__title__box__yellow
 {
-	color:#FFEB3B;
+	color:#ADFF2F;
 	padding-left: 65px; 
 }
 .mainhead__title__box
@@ -52,15 +52,15 @@ h4, h6
 }
 u
 {
-	text-decoration-color:#FFEB3B;  
+	text-decoration-color:#ADFF2F;  
 }
 
 /* Partie gauche */
 
 .left
 {
-	background-color:#FFEB3B;
-	color:#37474F;
+	background-color:#ADFF2F;
+	color:#2F4F4F;
 	height:100%;
 	display:flex; 
 	flex-direction:column;
@@ -72,8 +72,8 @@ u
 }
 .left__top__box__title
 {
-	background-color: #37474F;
-	color: #FFEB3B;
+	background-color: #2F4F4F;
+	color: #ADFF2F;
 	text-align: center;
 	padding: 4px;
 }
@@ -84,8 +84,8 @@ u
 }
 .left__bot__box__title
 {
-	background-color: #37474F;
-	color: #FFEB3B;
+	background-color: #2F4F4F;
+	color: #ADFF2F;
 	text-align: center;
 	padding: 4px;
 	margin-bottom: 0px;
@@ -93,14 +93,14 @@ u
 .left__bot__box__bar
 {
 	padding: 25px;
-	background-color: #FFEB3B;
+	background-color: #ADFF2F;
 	display: flex;
 	justify-content: space-around;
-	font-size: 35px;
+	font-size: 45px;
 }
 i
 {
-color: #37474F;
+color: #2F4F4F;
 }
 i.fas
 {
@@ -110,33 +110,33 @@ i.fas
 .fa-running
 {
 	border-radius: 50%;
-	border-color: #37474F;
+	border-color: #2F4F4F;
 	border-style:solid;
 	border-width:2px;
-	height: 60px;
-	width:60px;
+	height: 70px;
+	width:70px;
 	padding: 10px 5px 5px 15px;
 	margin:2px;
 }
 .fa-gamepad, .fa-tools
 {
 	border-radius: 50%;
-	border-color: #37474F;
+	border-color: #2F4F4F;
 	border-style:solid;
 	border-width:2px;
-	height: 60px;
-	width:60px;
+	height: 70px;
+	width:70px;
 	padding: 10px 10px 5px 5px;
 	margin:2px;
 }
 .fa-tools
 {
 	border-radius: 50%;
-	border-color: #37474F;
+	border-color: #2F4F4F;
 	border-style:solid;
 	border-width:2px;
-	height: 60px;
-	width:60px;
+	height: 70px;
+	width:70px;
 	padding: 10px 5px 5px 10px;
 	margin: 2px;
 }
@@ -145,7 +145,7 @@ i.fas
 
 .right__box
 {
-	color:#37474F;
+	color:#2F4F4F;
 }
 
 /* Partie droite barre titre et icones font awesome jaunes */
@@ -157,23 +157,23 @@ i.fas
 }
 .right__box__titlebar
 {
-	border-bottom: solid 2px #FFEB3B ;
-	margin: 20px 0px 20px 65px;
+	border-bottom: solid 2px #ADFF2F ;
+	margin-left: 65px;
 	font-size: 30px;
 }
 .fa-briefcase
 { 
-	color: #FFEB3B;
+	color: #ADFF2F;
 	margin-right: 15px;
 }
 .fa-graduation-cap
 { 
-	color: #FFEB3B;
+	color: #ADFF2F;
 	margin-right: 15px;
 }
 .fa-pencil-alt
 {
-	color:#FFEB3B;
+	color:#ADFF2F;
 	margin-right: 15px;
 }
 
@@ -203,13 +203,13 @@ i.fas
 	}
 .fa-dot-circle
 {
-	color:#FFEB3B;
+	color:#ADFF2F;
 	padding-right: 15px;
 	padding-top: 5px;
 }
 .fa-circle
 {
-	color:#FFEB3B;
+	color:#ADFF2F;
 	padding-right: 15px;
 	padding-top: 5px;
 }
@@ -221,24 +221,24 @@ i.fas
 {
 .mainhead__title
 	{
-		color:#37474F;
+		color:#2F4F4F;
 		display: inline;
 		text-align: justify;
 	}
 .mainhead__title__box__yellow
 	{
-		color:#FFEB3B;
+		color:#ADFF2F;
 		padding: 5px; 
 	}
 .mainhead__title__box
 	{	
-		color:#37474F;
+		color:#2F4F4F;
 		padding:0px;
 	}
 .right__box__titlebar
 	{
-	border-bottom: solid 2px #FFEB3B ;
-	margin: 10px 0px 0px 5px;
+	border-bottom: solid 2px #ADFF2F ;
+	margin: 10px 5px 0px 5px;
 	font-size: 30px;
 	}
 .right__box__text__date
@@ -250,14 +250,9 @@ i.fas
 	}
 .right__box__reco
 	{
-		margin-left:0px;
+		margin-left:5px;
 		width:auto;
 		font-size: 12px;
 	}
-.right__box__text
-{
-	display: flex;
-	justify-content: space-around;
-}
 }
 
