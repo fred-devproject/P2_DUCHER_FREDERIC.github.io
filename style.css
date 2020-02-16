@@ -29,7 +29,7 @@ h4, h6
 .mainhead__photo__portrait
 {
    max-width: 220px;
-   clip-path:ellipse(50% 50%);
+   border-radius: 50%;
    margin:50px 80px 50px 80px;
    
 }
