@@ -3,10 +3,15 @@
 .page
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: small;
+	font-size: medium;
 	font-weight: 500;
 	margin: auto;
 	max-width: 1280px;
+}
+.fa-dot-circle
+{
+	padding-left: 0;
+	padding-right: 0;
 }
 h1
 {
@@ -64,11 +69,15 @@ u
 	height:100%;
 	display:flex; 
 	flex-direction:column;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: -15px;
+	margin-right: -15px;
 }
-.left__top
+.left__top__box__apropos
 {
 	flex-grow:1;
-	font-size: 15px;
+	font-size: medium;
 }
 .left__top__box__title
 {
@@ -76,6 +85,8 @@ u
 	color: #ADFF2F;
 	text-align: center;
 	padding: 4px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .left__top__box__bar
 {
@@ -89,6 +100,8 @@ u
 	text-align: center;
 	padding: 4px;
 	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .left__bot__box__bar
 {
@@ -196,7 +209,12 @@ i.fas
 	width: 60%;
 	font-size: 15px;
 }
-.right__box__reco
+.right__box__text__block
+{
+	display:flex;
+	margin-top: 10px;
+}
+.right__box__text__reco
 	{
 		margin-left:65px;
 		width:50%;
@@ -237,9 +255,18 @@ i.fas
 	}
 .right__box__titlebar
 	{
-	border-bottom: solid 2px #ADFF2F ;
-	margin: 10px 5px 0px 5px;
-	font-size: 30px;
+		border-bottom: solid 2px #ADFF2F ;
+		margin: 10px 5px 0px 5px;
+		font-size: 30px;
+	}
+.right__box__text
+	{
+		display: flex;
+		flex-direction: column;
+	}
+.right__box__text__content
+	{
+		width: 100%;
 	}
 .right__box__text__date
 	{
@@ -248,11 +275,64 @@ i.fas
 		font-size: 15px;
 		display:inline-flex;
 	}
-.right__box__reco
+.right__box__text__block
+	{
+		display:flex;
+		justify-content: space-around;
+		margin-top:10px;	
+	}
+.right__box__text__reco
 	{
 		margin-left:5px;
 		width:auto;
 		font-size: 12px;
 	}
+.left__bot__box__bar
+	{
+		padding: 25px;
+		background-color: #ADFF2F;
+		display: flex;
+		justify-content: space-around;
+		font-size: 35px;
+	}
+i.fas
+	{
+		display: inline-block;
+	
+	}
+.fa-running
+	{
+		border-radius: 50%;
+		border-color: #2F4F4F;
+		border-style:solid;
+		border-width:2px;
+		height: 60px;
+		width:60px;
+		padding: 10px 5px 5px 15px;
+		margin:2px;
+	}
+.fa-gamepad, .fa-tools
+	{
+		border-radius: 50%;
+		border-color: #2F4F4F;
+		border-style:solid;
+		border-width:2px;
+		height: 60px;
+		width:60px;
+		padding: 10px 8px 5px 6px;
+		margin:2px;
+	}
+.fa-tools
+	{
+		border-radius: 50%;
+		border-color: #2F4F4F;
+		border-style:solid;
+		border-width:2px;
+		height: 60px;
+		width:60px;
+		padding: 10px 5px 5px 10px;
+		margin: 2px;
+	}
+
 }
 
