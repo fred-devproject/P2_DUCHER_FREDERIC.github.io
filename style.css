@@ -212,7 +212,7 @@ i.fas
 .right__box__text__block
 {
 	display:flex;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .right__box__text__reco
 	{
@@ -231,8 +231,6 @@ i.fas
 	padding-right: 15px;
 	padding-top: 5px;
 }
-
-
 /* Taille d'écran < à 768px */
 /* responsive header */
 @media(max-width:768px)
@@ -272,14 +270,20 @@ i.fas
 	{
 		margin:5px;
 		flex-grow: 1;
-		font-size: 15px;
-		display:inline-flex;
+		font-size: medium;
+		width: auto;
+	}
+.right__box__undertitle
+	{
+		width: 70%;
+		padding-right: 0px;
+		margin-top: 5px;
 	}
 .right__box__text__block
 	{
 		display:flex;
 		justify-content: space-around;
-		margin-top:10px;	
+		margin-top:20px;	
 	}
 .right__box__text__reco
 	{
@@ -294,6 +298,7 @@ i.fas
 		display: flex;
 		justify-content: space-around;
 		font-size: 35px;
+		text-align: justify;
 	}
 i.fas
 	{
