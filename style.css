@@ -26,7 +26,7 @@ h4, h6
 
 .mainhead__photo
 {
-	background-color: #ADFF2F;
+	background-color: #03A9F4;
 	display:flex;
 	justify-content: space-around;
 
@@ -40,14 +40,14 @@ h4, h6
 }
 .mainhead__title
 {
-	color:#2F4F4F;
+	color:#263238;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 .mainhead__title__box__yellow
 {
-	color:#ADFF2F;
+	color:#03A9F4;
 	padding-left: 65px; 
 }
 .mainhead__title__box
@@ -57,15 +57,15 @@ h4, h6
 }
 u
 {
-	text-decoration-color:#ADFF2F;  
+	text-decoration-color:#03A9F4;  
 }
 
 /* Partie gauche */
 
 .left
 {
-	background-color:#ADFF2F;
-	color:#2F4F4F;
+	background-color:#03A9F4;
+	color:#263238;
 	height:100%;
 	display:flex; 
 	flex-direction:column;
@@ -81,8 +81,8 @@ u
 }
 .left__top__box__title
 {
-	background-color: #2F4F4F;
-	color: #ADFF2F;
+	background-color: #263238;
+	color: #03A9F4;
 	text-align: center;
 	padding: 4px;
 	margin-left: 0px;
@@ -95,8 +95,8 @@ u
 }
 .left__bot__box__title
 {
-	background-color: #2F4F4F;
-	color: #ADFF2F;
+	background-color: #263238;
+	color: #03A9F4;
 	text-align: center;
 	padding: 4px;
 	margin-bottom: 0px;
@@ -106,14 +106,14 @@ u
 .left__bot__box__bar
 {
 	padding: 25px;
-	background-color: #ADFF2F;
+	background-color: #03A9F4;
 	display: flex;
 	justify-content: space-around;
 	font-size: 45px;
 }
 i
 {
-color: #2F4F4F;
+color: #263238;
 }
 i.fas
 {
@@ -123,7 +123,7 @@ i.fas
 .fa-running
 {
 	border-radius: 50%;
-	border-color: #2F4F4F;
+	border-color: #263238;
 	border-style:solid;
 	border-width:2px;
 	height: 70px;
@@ -134,7 +134,7 @@ i.fas
 .fa-gamepad, .fa-tools
 {
 	border-radius: 50%;
-	border-color: #2F4F4F;
+	border-color: #263238;
 	border-style:solid;
 	border-width:2px;
 	height: 70px;
@@ -145,7 +145,7 @@ i.fas
 .fa-tools
 {
 	border-radius: 50%;
-	border-color: #2F4F4F;
+	border-color: #263238;
 	border-style:solid;
 	border-width:2px;
 	height: 70px;
@@ -158,7 +158,7 @@ i.fas
 
 .right__box
 {
-	color:#2F4F4F;
+	color:#263238;
 }
 
 /* Partie droite barre titre et icones font awesome jaunes */
@@ -170,23 +170,23 @@ i.fas
 }
 .right__box__titlebar
 {
-	border-bottom: solid 2px #ADFF2F ;
+	border-bottom: solid 2px #03A9F4 ;
 	margin-left: 65px;
 	font-size: 30px;
 }
 .fa-briefcase
 { 
-	color: #ADFF2F;
+	color: #03A9F4;
 	margin-right: 15px;
 }
 .fa-graduation-cap
 { 
-	color: #ADFF2F;
+	color: #03A9F4;
 	margin-right: 15px;
 }
 .fa-pencil-alt
 {
-	color:#ADFF2F;
+	color:#03A9F4;
 	margin-right: 15px;
 }
 
@@ -221,13 +221,13 @@ i.fas
 	}
 .fa-dot-circle
 {
-	color:#ADFF2F;
+	color:#03A9F4;
 	padding-right: 15px;
 	padding-top: 5px;
 }
 .fa-circle
 {
-	color:#ADFF2F;
+	color:#03A9F4;
 	padding-right: 15px;
 	padding-top: 5px;
 }
@@ -237,23 +237,23 @@ i.fas
 {
 .mainhead__title
 	{
-		color:#2F4F4F;
+		color:#263238;
 		display: inline;
 		text-align: justify;
 	}
 .mainhead__title__box__yellow
 	{
-		color:#ADFF2F;
+		color:#03A9F4;
 		padding: 5px; 
 	}
 .mainhead__title__box
 	{	
-		color:#2F4F4F;
+		color:#263238;
 		padding:0px;
 	}
 .right__box__titlebar
 	{
-		border-bottom: solid 2px #ADFF2F ;
+		border-bottom: solid 2px #03A9F4 ;
 		margin: 10px 5px 0px 5px;
 		font-size: 30px;
 	}
@@ -294,7 +294,7 @@ i.fas
 .left__bot__box__bar
 	{
 		padding: 25px;
-		background-color: #ADFF2F;
+		background-color: #03A9F4;
 		display: flex;
 		justify-content: space-around;
 		font-size: 35px;
@@ -308,7 +308,7 @@ i.fas
 .fa-running
 	{
 		border-radius: 50%;
-		border-color: #2F4F4F;
+		border-color: #263238;
 		border-style:solid;
 		border-width:2px;
 		height: 60px;
@@ -319,7 +319,7 @@ i.fas
 .fa-gamepad, .fa-tools
 	{
 		border-radius: 50%;
-		border-color: #2F4F4F;
+		border-color: #263238;
 		border-style:solid;
 		border-width:2px;
 		height: 60px;
@@ -330,7 +330,7 @@ i.fas
 .fa-tools
 	{
 		border-radius: 50%;
-		border-color: #2F4F4F;
+		border-color: #263238;
 		border-style:solid;
 		border-width:2px;
 		height: 60px;
