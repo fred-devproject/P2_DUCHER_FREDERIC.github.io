@@ -1,0 +1,140 @@
+/* Taille d'écran < à 768px */
+
+/* responsive header */
+@media(max-width:767px) {
+    
+    .mainhead__title {
+        color:#263238;
+        display: inline;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mainhead__title__box__blue {
+        color:#03A9F4;
+        padding: 5px; 
+    }
+        
+    .mainhead__title__box {	
+        color:#263238;
+        padding:0px;
+    }
+    
+    .mainhead__photo__portrait {
+        max-width: 200px;
+        border-radius: 50%;
+        margin:20px 40px 20px 40px;
+    }
+    
+    .right__box__titlebar {
+        border-bottom: solid 2px #03A9F4 ;
+        margin: 10px 5px 0px 5px;
+        font-size: 20px;
+        display: block;
+    }
+    
+    .right__box__title {
+        font-size: 20px;
+        display: inline;
+    }
+
+    .right__box__text__block{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .right__box__text {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .right__box__text__content {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .right__box__text__date {
+        margin:5px;
+        flex-grow: 1;
+        font-size: 15px;
+        width: auto;
+    }
+    
+    .right__box__undertitle {
+        width: 70%;
+        padding-right: 0px;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    
+    .right__box__text__block {
+        display:flex;
+        justify-content: space-around;
+        margin-top:20px;
+        margin-right:10px;
+	    margin-left:10px;	
+    }
+    
+    .right__box__text__reco {
+        margin-left:5px;
+        margin-right: 5px;
+        width:auto;
+        font-size: 12px;
+    }
+    
+    .left__bot__box__bar {
+        padding: 25px;
+        background-color: #03A9F4;
+        display: flex;
+        justify-content: space-around;
+        font-size: 35px;
+        text-align: justify;
+    }
+
+    .left__top__box__title, .left__bot__box__title {
+        font-size: 20px;
+    }
+
+    .left__top__box__bar {
+        font-size: 14px;
+    }
+    
+    i.fas {
+        display: inline-block;
+    }
+    
+    .fa-running {
+        border-radius: 50%;
+        border-color: #263238;
+        border-style:solid;
+        border-width:2px;
+        height: 60px;
+        width:60px;
+        padding: 10px 5px 5px 15px;
+        margin:2px;
+    }
+    
+    .fa-gamepad {
+        border-radius: 50%;
+        border-color: #263238;
+        border-style:solid;
+        border-width:2px;
+        height: 60px;
+        width:60px;
+        padding: 10px 8px 5px 6px;
+        margin:2px;
+    }
+    
+    .fa-tools {
+        border-radius: 50%;
+        border-color: #263238;
+        border-style:solid;
+        border-width:2px;
+        height: 60px;
+        width:60px;
+        padding: 10px 5px 5px 10px;
+        margin: 2px;
+    }
+    
+    }
